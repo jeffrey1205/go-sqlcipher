@@ -10,11 +10,10 @@ package sqlite3
 // use memory for temporay storage in sqlite
 #cgo CFLAGS: -DSQLITE_TEMP_STORE=2
 
-// use libtomcrypt implementation in sqlcipher
-#cgo CFLAGS: -DSQLCIPHER_CRYPTO_LIBTOMCRYPT
-
-// disable anything "not portable" in libtomcrypt
-#cgo CFLAGS: -DLTC_NO_ASM
+// use openssl implementation in sqlcipher
+#cgo CFLAGS: -DSQLCIPHER_CRYPTO_OPENSSL
+#cgo CFLAGS: -DLTC_NO_CIPHERS -DLTC_NO_HASHES -DLTC_NO_MACS
+#cgo CFLAGS: -DLTC_NO_PRNGS -DLTC_NO_PK -DLTC_NO_PKCS
 
 // disable assertions
 #cgo CFLAGS: -DNDEBUG
