@@ -1,4 +1,4 @@
-module github.com/mutecomm/go-sqlcipher
+module github.com/jeffrey1205/go-sqlcipher
 
 go 1.12
 

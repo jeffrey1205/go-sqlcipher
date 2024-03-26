@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	_ "github.com/mutecomm/go-sqlcipher"
+	_ "github.com/jeffrey1205/go-sqlcipher"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-## go-sqlcipher [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/mutecomm/go-sqlcipher) [![Build Status](http://img.shields.io/travis/mutecomm/go-sqlcipher.svg?style=flat-square)](https://travis-ci.org/mutecomm/go-sqlcipher)
+## go-sqlcipher [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/jeffrey1205/go-sqlcipher) [![Build Status](http://img.shields.io/travis/jeffrey1205/go-sqlcipher.svg?style=flat-square)](https://travis-ci.org/jeffrey1205/go-sqlcipher)
 
 ### Description
 
@@ -18,7 +18,7 @@ go-sqlcipher currently only supports the SQLCipher 3.x releases.
 
 This package can be installed with the go get command:
 
-    go get github.com/mutecomm/go-sqlcipher
+    go get github.com/jeffrey1205/go-sqlcipher
 
 
 ### Documentation
@@ -36,10 +36,10 @@ db, _ := sql.Open("sqlite3", dbname)
 you want a different value than the default 1024 bytes).
 
 API documentation can be found here:
-http://godoc.org/github.com/mutecomm/go-sqlcipher
+http://godoc.org/github.com/jeffrey1205/go-sqlcipher
 
 Use the function
-[sqlite3.IsEncrypted()](https://godoc.org/github.com/mutecomm/go-sqlcipher#IsEncrypted)
+[sqlite3.IsEncrypted()](https://godoc.org/github.com/jeffrey1205/go-sqlcipher#IsEncrypted)
 to check whether a database file is encrypted or not.
 
 Examples can be found under the `./_example` directory
