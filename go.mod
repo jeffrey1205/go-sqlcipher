@@ -1,4 +1,4 @@
-module github.com/jeffrey1205/go-sqlcipher/v4
+module github.com/jeffrey1205/go-sqlcipher/gm
 
 go 1.12
 

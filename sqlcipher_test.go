@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	sqlite3 "github.com/jeffrey1205/go-sqlcipher/v4"
+	sqlite3 "github.com/jeffrey1205/go-sqlcipher/gm"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
