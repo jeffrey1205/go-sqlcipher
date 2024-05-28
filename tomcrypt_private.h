@@ -49,6 +49,7 @@ typedef struct {
    unsigned long blocklen;
 } pbes_properties;
 
+#ifdef LTC_DER
 typedef struct
 {
    pbes_properties type;
@@ -61,6 +62,7 @@ typedef struct
    /* only used for RC2 */
    unsigned long key_bits;
 } pbes_arg;
+#endif
 
 /*
  * Internal functions
@@ -204,11 +206,12 @@ void ocb3_int_xor_blocks(unsigned char *out, const unsigned char *block_a, const
 
 void copy_or_zeromem(const unsigned char* src, unsigned char* dest, unsigned long len, int coz);
 
+#ifdef LTC_DER
 int pbes_decrypt(const pbes_arg  *arg, unsigned char *dec_data, unsigned long *dec_size);
 
 int pbes1_extract(const ltc_asn1_list *s, pbes_arg *res);
 int pbes2_extract(const ltc_asn1_list *s, pbes_arg *res);
-
+#endif
 
 /* tomcrypt_pk.h */
 

@@ -13,7 +13,7 @@ package sqlite3
 // use openssl implementation in sqlcipher
 #cgo CFLAGS: -DSQLCIPHER_CRYPTO_OPENSSL
 #cgo CFLAGS: -DLTC_NO_CIPHERS -DLTC_NO_HASHES -DLTC_NO_MACS
-#cgo CFLAGS: -DLTC_NO_PRNGS -DLTC_NO_PK -DLTC_NO_PKCS
+#cgo CFLAGS: -DLTC_NO_PRNGS -DLTC_NO_PK -DLTC_NO_PKCS -DLTC_NO_MISC
 
 // disable assertions
 #cgo CFLAGS: -DNDEBUG
