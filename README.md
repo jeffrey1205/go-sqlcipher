@@ -27,13 +27,13 @@ See [migrating databases](https://www.zetetic.net/sqlcipher/sqlcipher-api/#Migra
 
 To upgrade your Go code to the 4.x series, change the import path to
 
-    "github.com/jeffrey1205/go-sqlcipher/gm"
+    "github.com/jeffrey1205/go-sqlcipher/v4@4.6.2"
 
 ### Installation
 
 This package can be installed with the go get command:
 
-    go get github.com/jeffrey1205/go-sqlcipher/gm
+    go get github.com/jeffrey1205/go-sqlcipher/v4@4.6.2
 
 
 默认使用了openssl，编译时需指定openssl库路径。

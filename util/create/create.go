@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"os"
 
-	_ "github.com/jeffrey1205/go-sqlcipher/gm"
+	_ "github.com/jeffrey1205/go-sqlcipher/v4"
 )
 
 func create(dbname, password string) error {
