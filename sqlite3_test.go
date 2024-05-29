@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jeffrey1205/go-sqlcipher/sqlite3_test"
+	"github.com/jeffrey1205/go-sqlcipher/v3/sqlite3_test"
 )
 
 func TempFilename(t *testing.T) string {
